@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080/api/v1/student'; // Replace with your backend API URL
+const BASE_URL = 'http://localhost:8080/api/v1/student'; 
 
 const studentsApi = axios.create({
   baseURL: BASE_URL,
   headers: {
     'Content-Type': 'application/json',
-  // Add any other headers you need, such as authentication tokens.
+    
   },
 });
 
